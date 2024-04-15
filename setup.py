@@ -2,14 +2,14 @@ import re
 import os
 import setuptools
 
-ver = 'v0.1.5'
+ver = 'v0.1.0'
 
 with open("README.rst", "r", encoding="utf-8") as fh:
     long_desc = fh.read()
 
 desc = "Package containing basic functions to build telegram bots."
 GPL = "GNU AFFERO GENERAL PUBLIC LICENSE (v3)"
-git = "https://github.com/vasusen-code/ethon"
+git = "https://github.com/TEAMUNKNOW/Abhi"
 classify = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.6",
@@ -20,7 +20,10 @@ classify = [
     "Operating System :: OS Independent",
 ]
 requirements = [
+    "os",
     "python-decouple",
+    "pyrogram",
+    "pykeyboard",
     "telethon",
     "aiofiles",
     "aiohttp",
@@ -33,7 +36,7 @@ requirements = [
 setuptools.setup(
     name="ethon",
     version=ver,
-    author="vasusen-code",
+    author="TEAMUNKNOW",
     description=desc,
     long_description=long_desc,
     long_description_content_type="text/markdown",
