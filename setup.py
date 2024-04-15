@@ -20,7 +20,6 @@ classify = [
     "Operating System :: OS Independent",
 ]
 requirements = [
-    "os",
     "python-decouple",
     "pyrogram",
     "pykeyboard",
