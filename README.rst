@@ -9,7 +9,7 @@ install
 
 .. code:: python
     
-    pip install ethon
+    pip install Atomic
 
 Usage
 =====
