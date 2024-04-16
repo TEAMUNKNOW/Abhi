@@ -8,7 +8,7 @@ from pyrogram.types import (InlineKeyboardButton,
 
 
 
-def song_markup(_, vidid):
+def song_markup():
     buttons = [
         [
             InlineKeyboardButton(
