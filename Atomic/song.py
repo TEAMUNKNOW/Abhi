@@ -8,7 +8,7 @@ from pyrogram.types import (InlineKeyboardButton,
 
 
 
-def close_markup(_):
+def close_markup():
     upl = InlineKeyboardMarkup(
         [
             [
