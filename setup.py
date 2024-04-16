@@ -2,7 +2,7 @@ import re
 import os
 import setuptools
 
-ver = 'v0.1.0'
+ver = 'v0.0.1'
 
 with open("README.rst", "r", encoding="utf-8") as fh:
     long_desc = fh.read()
@@ -33,7 +33,7 @@ requirements = [
 
 
 setuptools.setup(
-    name="ethon",
+    name="Atomic",
     version=ver,
     author="TEAMUNKNOW",
     description=desc,
