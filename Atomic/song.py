@@ -13,11 +13,11 @@ def song_markup(_, vidid):
         [
             InlineKeyboardButton(
                 text="ᴀᴜᴅɪᴏ",
-                callback_data=f"song_helper audio|{vidid}",
+                callback_data=f"song_helper",
             ),
             InlineKeyboardButton(
                 text="ᴠɪᴅᴇᴏ",
-                callback_data=f"song_helper video|{vidid}",
+                callback_data=f"song_helper",
             ),
         ],
         [
