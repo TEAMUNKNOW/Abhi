@@ -8,22 +8,15 @@ from pyrogram.types import (InlineKeyboardButton,
 
 
 
-def song_markup(_):
-    buttons = [
+def close_markup(_):
+    upl = InlineKeyboardMarkup(
         [
-            InlineKeyboardButton(
-                text="ᴀᴜᴅɪᴏ",
-                callback_data=f"song_helper",
-            ),
-            InlineKeyboardButton(
-                text="ᴠɪᴅᴇᴏ",
-                callback_data=f"song_helper",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="CLOSE_BUTTON", callback_data="close"
-            ),
-        ],
-    ]
-    return buttons
+            [
+                InlineKeyboardButton(
+                    text=_["CLOSE_BUTTON"],
+                    callback_data="close",
+                ),
+            ]
+        ]
+    )
+    return upl
